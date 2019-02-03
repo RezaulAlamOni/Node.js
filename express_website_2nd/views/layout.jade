@@ -2,6 +2,47 @@ doctype html
 html
   head
     title= title
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
+    link(href='/stylesheets/bootstrap.css', rel='stylesheet')
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+  body.container
+
+    nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExampleDefault', aria-controls='navbarsExampleDefault', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarsExampleDefault.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item(class=(title==='home' ? 'active' : ''))
+            a.nav-link(href='#')
+               h3 Home
+              span.sr-only (current)
+          li.nav-item(class=(title==='about' ? 'active' : ''))
+            a.nav-link(href='#')
+                h3 About
+          li.nav-item(class=(title==='contract' ? 'active' : ''))
+            a.nav-link(href='#')
+                h3 Contract
+          li.nav-item.dropdown(class=(title==='drop' ? 'active' : ''))
+            a#dropdown01.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Dropdown
+            .dropdown-menu(aria-labelledby='dropdown01')
+              a.dropdown-item(href='#')
+                h3 Action
+              a.dropdown-item(href='#')
+                h3 Another action
+              a.dropdown-item(href='#')
+                h3 Something else here
+        form.form-inline.my-2.my-lg-0
+          input.form-control.mr-sm-2(type='text', placeholder='Search', aria-label='Search')
+          button.btn.btn-secondary.my-2.my-sm-0(type='submit') Search
+    br
+    br
+    block body
+
+
+
+    block script
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js")
+        script(src="/javascripts/bootstrap.js")
