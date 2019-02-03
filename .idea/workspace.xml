@@ -2,9 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae635f3a-f915-40cc-9d8e-72c2fb3816da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple webs server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simple webs server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple webs server/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/simple webs server/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/bin/www" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/etag/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/express_website_2nd/node_modules/etag/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/fresh/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/express_website_2nd/node_modules/fresh/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/parseurl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/express_website_2nd/node_modules/parseurl/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/node_modules/safe-buffer/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/node_modules/safe-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/node_modules/safe-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/node_modules/safe-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/node_modules/safe-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/node_modules/safe-buffer/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/node_modules/serve-favicon/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/express_website_2nd/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/public/stylesheets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/views/error.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/views/index.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_website_2nd/views/layout.jade" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,12 +40,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/express_website_2nd/app.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/express_website_2nd/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="336">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -32,8 +58,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/express_website_2nd/package.json" />
         <option value="$PROJECT_DIR$/express_website_2nd/app.js" />
+        <option value="$PROJECT_DIR$/express_website_2nd/views/view.jade" />
+        <option value="$PROJECT_DIR$/express_website_2nd/views/index.jade" />
+        <option value="$PROJECT_DIR$/express_website_2nd/views/layout.jade" />
+        <option value="$PROJECT_DIR$/express_website_2nd/package.json" />
       </list>
     </option>
   </component>
@@ -53,7 +82,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="422" />
+    <option name="y" value="72" />
     <option name="width" value="697" />
     <option name="height" value="775" />
   </component>
@@ -63,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,6 +109,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -112,36 +142,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548965007072</updated>
-      <workItem from="1548965010885" duration="2107000" />
+      <workItem from="1548965010885" duration="2653000" />
+      <workItem from="1549052071927" duration="4419000" />
+      <workItem from="1549213532164" duration="2391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2107000" />
+    <option name="totallyTimeSpent" value="9463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20801815" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.7414861" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.37151703" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,20 +183,110 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/express_website_2nd/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/routes/index.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/views/view.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1272">
+          <caret line="53" column="20" lean-forward="true" selection-end-line="58" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/express_website_2nd/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="336">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/express_website_2nd/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="648">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/views/view.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_website_2nd/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
